@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/Registro"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/navbar"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/registro"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <ImageButton
+        android:id="@+id/volver"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="33dp"
+        android:layout_gravity="top"
+        android:background="@drawable/ic_flechavolver"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_below="@id/Registro"
+        android:layout_marginTop="120dp"
+        android:id="@+id/editTextContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:id="@+id/TVespecialidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-0.5dp"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/profesion_especialidad"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/especialidad"
+            android:layout_width="347dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/image_rectangle1"
+            />
+
+        <TextView
+            android:id="@+id/TVcontraseña"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-0.5dp"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/contrasena"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/contraseña"
+            android:layout_width="347dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"
+            android:background="@drawable/image_rectangle1"
+            />
+
+        <TextView
+            android:id="@+id/TVcertificado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-0.5dp"
+            android:gravity="center"
+            android:text="@string/certificado_de_antecedentes"
+            android:textColor="#FF000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:text="@string/cargar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="275dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/editTextContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/registrarse" />
+
+
+</RelativeLayout>
+

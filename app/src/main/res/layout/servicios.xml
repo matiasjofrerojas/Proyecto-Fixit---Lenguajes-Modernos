@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp">
+
+    <!-- Encabezado -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/servicios"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/header"
+        android:gravity="center"
+        android:padding="25dp"/>
+    
+        <!-- Botones de servicios -->
+        <Button
+            android:id="@+id/btnServicio1"
+            android:layout_width="315dp"
+            android:layout_height="100dp"
+            android:text="@string/nombre_apellido_servicios"
+            android:layout_below="@id/header"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:textColor="@color/white"
+            android:textSize="26sp"/>
+
+        <Button
+            android:id="@+id/btnServicio2"
+            android:layout_width="315dp"
+            android:layout_height="100dp"
+            android:text="@string/nombre_apellido_servicios"
+            android:layout_below="@id/btnServicio1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="26sp"/>
+
+        <Button
+            android:id="@+id/btnServicio3"
+            android:layout_width="315dp"
+            android:layout_height="100dp"
+            android:text="@string/nombre_apellido_servicios"
+            android:layout_below="@id/btnServicio2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:textSize="26sp"/>
+
+
+
+    <!-- Navbar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Navbar"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nav_inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/inicio"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/nav_servicios"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/servicios_nav"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/menu"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/nav_ayuda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ayuda"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginEnd="10dp"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
