@@ -15,6 +15,7 @@
     <string name="pregunta_portada">¿Ya tienes una cuenta?</string>
     <string name="inicio_sesion_portada"><u>Iniciar Sesión</u></string>
     <string name="nombre1_boton_seleccion_user">ESPECIALISTA</string>
+    <string name="nombre2_boton_seleccion_user">CLIENTE</string>
     <string name="texto_seleccion_user">ESCOJA SU TIPO DE USUARIO:</string>
     <string name="servicios">SERVICIO 1</string>
     <string name="nombre_apellido_servicios">Nombre Apellido</string>

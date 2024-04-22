@@ -45,7 +45,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp">
+        android:layout_marginStart="25dp">
 
         <FrameLayout
             android:id="@+id/container_group1"
@@ -179,7 +179,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="150dp">
+        android:layout_marginStart="155dp">
 
         <FrameLayout
             android:id="@+id/container_group4"
@@ -313,7 +313,7 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="270dp">
+        android:layout_marginStart="275dp">
 
         <FrameLayout
             android:id="@+id/container_group7"

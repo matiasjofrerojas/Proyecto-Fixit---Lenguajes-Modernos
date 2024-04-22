@@ -24,6 +24,7 @@
         </activity>
 
         <activity android:name=".OtraActividad"></activity>
+        <activity android:name="com.example.fixit.OtraActividad2" />
 
     </application>
 
