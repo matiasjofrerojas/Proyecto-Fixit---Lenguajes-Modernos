@@ -89,7 +89,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginEnd="80dp"
         android:padding="15dp"
-        android:text="@string/nombre1_boton_seleccion_user"
+        android:text="@string/nombre2_boton_seleccion_user"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@id/boton1_seleccion_user"
         app:layout_constraintTop_toBottomOf="@id/boton1_seleccion_user"
