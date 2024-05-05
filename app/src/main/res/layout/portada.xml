@@ -74,7 +74,8 @@
             android:text="@string/texto_boton_portada"
             android:textSize="28sp"
             android:textStyle="bold"
-            app:layout_constraintTop_toTopOf="@+id/textView3" />
+            app:layout_constraintTop_toTopOf="@+id/textView3"
+            android:onClick="OpenSelectUser"/>
 
         <TextView
             android:id="@+id/textView4"

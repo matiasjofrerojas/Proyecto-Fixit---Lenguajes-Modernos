@@ -1,18 +1,18 @@
 package com.example.fixit
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class RegisterUser : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.portada)
+        setContentView(R.layout.registros)
     }
 
-    fun OpenSelectUser(view: View) {
-        val intent = Intent(this, SelectUser::class.java)
+    fun OpenRegisterUser(view: View) {
+        val intent = Intent(this, RegisterUser2::class.java)
         startActivity(intent)
     }
 

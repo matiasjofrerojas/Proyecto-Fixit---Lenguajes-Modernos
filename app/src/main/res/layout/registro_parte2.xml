@@ -110,8 +110,8 @@
         android:layout_below="@id/editTextContainer"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
-        android:text="@string/registrarse" />
-
+        android:text="@string/registrarse"
+        android:onClick="OpenMenuInicio"/>
 
 </RelativeLayout>
 

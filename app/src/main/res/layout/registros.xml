@@ -29,18 +29,18 @@
 
     <ImageView
         android:id="@+id/imagen"
-        android:layout_width="109.08dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         android:layout_below="@id/Registro"
         android:layout_marginTop="30dp"
-        android:layout_height="112dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/imgperfil" />
 
     <LinearLayout
         android:layout_below="@id/imagen"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/editTextContainer"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_centerHorizontal="true">
@@ -50,19 +50,19 @@
             android:id="@+id/TVnombre_apellido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="top"
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/nombre"
             android:textColor="#FF000000"
             android:textSize="20sp"
-            />
+            android:layout_marginStart="25dp"/>
 
         <EditText
             android:id="@+id/ETnombre"
             android:layout_width="347dp"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_marginTop="5dp"
+            android:layout_gravity="center"
             android:background="@drawable/image_rectangle1"
             />
 
@@ -77,13 +77,15 @@
             android:text="@string/rut"
             android:textColor="#FF000000"
             android:textSize="20sp"
+            android:layout_marginStart="30dp"
             />
 
         <EditText
             android:id="@+id/rut"
             android:layout_width="347dp"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_marginTop="5dp"
+            android:layout_gravity="center"
             android:background="@drawable/image_rectangle1"
             />
 
@@ -97,14 +99,16 @@
             android:gravity="center_horizontal|center_vertical"
             android:text="@string/correo_electronico"
             android:textColor="#FF000000"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"/>
 
         <EditText
             android:id="@+id/correo"
             android:layout_width="347dp"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_marginTop="5dp"
             android:inputType="textEmailAddress"
+            android:layout_gravity="center"
             android:background="@drawable/image_rectangle1"
             />
 
@@ -119,14 +123,16 @@
             android:text="@string/telefono"
             android:textColor="#FF000000"
             android:textSize="20sp"
+            android:layout_marginStart="30dp"
             />
 
         <EditText
             android:id="@+id/telefono"
             android:layout_width="347dp"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_marginTop="5dp"
             android:inputType="phone"
+            android:layout_gravity="center"
             android:background="@drawable/image_rectangle1"
             />
 
@@ -136,13 +142,15 @@
     <Button
         android:id="@+id/btnsiguiente"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:text="@string/btnsiguiente"
+        android:textSize="20sp"
         android:layout_below="@id/editTextContainer"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="16dp"
         android:drawableEnd="@drawable/ic_flechasgt"
+        android:onClick="OpenRegisterUser"
         />
 
 </RelativeLayout>

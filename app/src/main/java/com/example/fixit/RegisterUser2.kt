@@ -5,15 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class RegisterUser2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.portada)
+        setContentView(R.layout.registro_parte2)
     }
 
-    fun OpenSelectUser(view: View) {
-        val intent = Intent(this, SelectUser::class.java)
+    fun OpenMenuInicio(view: View) {
+        val intent = Intent(this, MenuInicio::class.java)
         startActivity(intent)
     }
-
 }

@@ -23,7 +23,7 @@
     <string name="btnsiguiente">SIGUIENTE</string>
     <string name="telefono">Teléfono</string>
     <string name="correo_electronico">Correo Electrónico</string>
-    <string name="rut">Rut sin puntos y sin guión (Ej: 101234560)</string>
+    <string name="rut">Rut sin puntos ni guión (Ej:101234560)</string>
     <string name="nombre">Nombre y Apellido</string>
     <string name="registrarse">Registrarse</string>
     <string name="cargar">Cargar</string>
@@ -40,4 +40,5 @@
     <string name="titulo">Servicio 1 - Nombre Apellido</string>
     <string name="comentarios">Comentarios</string>
     <string name="titulo_categorias">Categorías</string>
+    <string name="nombre3_boton_seleccion_user">EMPRESA</string>
 </resources>

@@ -5,15 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class SelectUser : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.portada)
+        setContentView(R.layout.seleccion_usuario)
     }
 
-    fun OpenSelectUser(view: View) {
-        val intent = Intent(this, SelectUser::class.java)
+    fun OpenRegistEspecialist(view: View) {
+        val intent = Intent(this, RegisterUser::class.java)
         startActivity(intent)
     }
-
 }
