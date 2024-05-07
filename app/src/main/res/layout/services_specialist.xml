@@ -1,0 +1,533 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoAlternativo2">
+
+    <!-- Encabezado -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_categorias"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/header"
+        android:gravity="center"
+        android:padding="25dp"/>
+
+
+    <TextView
+        android:id="@+id/text_buscar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="144.5dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Escoge el o los servicios"
+        android:textColor="#FF000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_buscar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_buscar1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="disponibles a ofrecer:"
+        android:textColor="#FF000000"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:id="@+id/container_group1"
+        android:layout_marginStart="20dp"
+        android:layout_width="103.5dp"
+        android:layout_height="101.83dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="250dp">
+
+        <ImageView
+            android:id="@+id/image_rectangle1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/image_group1"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza1"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group2"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="480dp">
+
+        <ImageView
+            android:id="@+id/image_rectangle2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/image_group2"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza2"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group3"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="365dp">
+
+        <ImageView
+            android:id="@+id/image_rectangle3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/image_group3"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group4"
+        android:layout_marginStart="145dp"
+        android:layout_width="103.5dp"
+        android:layout_height="101.83dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:id="@+id/image_rectangle4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/image_group4"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza4"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group9"
+        android:layout_marginStart="145dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:id="@+id/image_rectangle9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/image_group9"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza9"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group5"
+        android:layout_marginStart="145dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:id="@+id/image_rectangle5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/image_group5"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza5"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group6"
+        android:layout_marginStart="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="365dp"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:id="@+id/image_rectangle6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/image_group6"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza6"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/container_group7"
+        android:layout_marginStart="270dp"
+        android:layout_width="103.5dp"
+        android:layout_height="101.83dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:id="@+id/image_rectangle7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/image_group7"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza7"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container_group8"
+        android:layout_marginStart="270dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_gravity="top">
+
+        <ImageView
+            android:id="@+id/image_rectangle8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/image_rectangle1"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:id="@+id/image_group8"
+            android:layout_width="49.58dp"
+            android:layout_height="46.19dp"
+            android:layout_marginLeft="24.67dp"
+            android:layout_marginRight="29.25dp"
+            android:layout_marginTop="21.76dp"
+            android:layout_marginBottom="33.88dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/image_group2" />
+
+        <TextView
+            android:id="@+id/text_limpieza8"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18.1dp"
+            android:layout_marginRight="8.73dp"
+            android:layout_marginTop="70.43dp"
+            android:layout_marginBottom="13.4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Limpieza"
+            android:textColor="#FF000000"
+            android:textSize="14dp" />
+    </FrameLayout>
+
+
+    <!-- Navbar -->
+    <TextView
+        android:id="@+id/text_cambio_página_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/container_group5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:text="@string/Cambio_página_1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/text_cambio_página_1"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:text="Siguiente" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Navbar"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/nav_inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/inicio"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/nav_servicios"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/servicios_nav"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/menu"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            android:id="@+id/nav_ayuda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ayuda"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+
+</RelativeLayout>

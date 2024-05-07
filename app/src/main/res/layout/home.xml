@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_shape">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_home"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@color/header"
+        android:gravity="center"
+        android:padding="25dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="100dp"
+        android:text="Perfil"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:onClick="openPerfil"/>
+
+    <ImageView
+        android:id="@+id/container_image"
+        android:layout_width="212dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/container_image" />
+
+    <TextView
+        android:id="@+id/text_trabajo_recompensado"
+        android:layout_width="218dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center_horizontal"
+        android:includeFontPadding="false"
+        android:text="Tu trabajo es recompensado"
+        android:textColor="#FF33353C"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/text_ayuda_necesitas"
+        android:layout_width="247dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="460dp"
+        android:gravity="end"
+        android:text="Te ayudamos en lo que necesites 24/7"
+        android:textColor="#FF33353C"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/text_servicio_calidad"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Si ofreces un servicio de calidad, nosotros te pondremos primero."
+        android:textAlignment="center"
+        android:textColor="#FF282828"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/container_image1"
+        android:layout_width="179dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="430dp"
+        android:src="@drawable/container_image1" />
+
+    <!-- NavBar -->
+
+    <TextView
+        android:id="@+id/text_garantia_especialistas"
+        android:layout_width="217dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="end"
+        android:text="Garantizamos que tu necesidad sea cubierta con nuestros especialistas."
+        android:textColor="#FF282828"
+        android:textSize="16sp" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/Navbar"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/nav_inicio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/inicio"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:id="@+id/nav_servicios"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/servicios_nav"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:id="@+id/menu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/menu"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <TextView
+                android:id="@+id/nav_ayuda"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ayuda"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+</RelativeLayout>

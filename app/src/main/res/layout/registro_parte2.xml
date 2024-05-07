@@ -53,8 +53,8 @@
         <EditText
             android:id="@+id/especialidad"
             android:layout_width="347dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
             android:inputType="textEmailAddress"
             android:background="@drawable/image_rectangle1"
             />
@@ -75,8 +75,8 @@
         <EditText
             android:id="@+id/contraseña"
             android:layout_width="347dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="20dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
             android:inputType="phone"
             android:background="@drawable/image_rectangle1"
             />
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="-0.5dp"
             android:gravity="center"
             android:text="@string/certificado_de_antecedentes"
@@ -95,22 +95,22 @@
 
         <Button
             android:layout_width="170dp"
-            android:layout_height="40dp"
+            android:layout_height="60dp"
             android:text="@string/cargar"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
+            android:textSize="20sp"
             />
-
-
     </LinearLayout>
 
     <Button
         android:layout_width="275dp"
-        android:layout_height="41dp"
+        android:layout_height="60dp"
         android:layout_below="@id/editTextContainer"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="20dp"
         android:text="@string/registrarse"
+        android:textSize="20sp"
         android:onClick="OpenMenuInicio"/>
 
 </RelativeLayout>

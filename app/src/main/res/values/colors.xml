@@ -14,5 +14,6 @@
     <color name="navbar">#2F2F2F</color>
     <color name="verde">#FF466D20</color>
     <color name="rojo">#FFAF5050</color>
-    <color name="fondoceleste">#D9D9D9</color>
+    <color name="fondoAlternativo">#EDEDED</color>
+    <color name="fondoAlternativo2">#DEE0E0</color>
 </resources>

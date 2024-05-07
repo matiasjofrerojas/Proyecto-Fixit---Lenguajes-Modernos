@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="radius">
-        <item name="cornerSizeTopRight">80dp</item>
-        <item name="cornerSizeTopLeft">80dp</item>
-        <item name="cornerSizeBottomLeft">80dp</item>
-        <item name="cornerSizeBottomRight">80dp</item>
+        <item name="cornerSizeTopRight">90dp</item>
+        <item name="cornerSizeTopLeft">90dp</item>
+        <item name="cornerSizeBottomLeft">90dp</item>
+        <item name="cornerSizeBottomRight">90dp</item>
     </style>
     <style name="radius2">
         <item name="cornerSizeTopRight">60dp</item>

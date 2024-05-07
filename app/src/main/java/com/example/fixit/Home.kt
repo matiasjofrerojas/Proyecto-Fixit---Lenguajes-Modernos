@@ -1,18 +1,18 @@
 package com.example.fixit
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
-class RegisterUser2 : AppCompatActivity() {
+class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.registro_parte2)
+        setContentView(R.layout.home)
     }
 
-    fun OpenMenuInicio(view: View) {
-        val intent = Intent(this, Home::class.java)
+    fun openPerfil(view: View) {
+        val intent = Intent(this, Profile::class.java)
         startActivity(intent)
     }
 }
