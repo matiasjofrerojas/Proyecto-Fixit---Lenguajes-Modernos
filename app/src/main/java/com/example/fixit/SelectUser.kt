@@ -15,4 +15,9 @@ class SelectUser : AppCompatActivity() {
         val intent = Intent(this, RegisterUser::class.java)
         startActivity(intent)
     }
+
+    fun OpenRegistCliente(view: View) {
+        val intent = Intent(this, RegisterCliente::class.java)
+        startActivity(intent)
+    }
 }
