@@ -25,9 +25,7 @@
         android:layout_gravity="top"
         android:background="@drawable/ic_flechavolver"
         android:scaleType="centerInside"
-        android:onClick="ReturnRegisterUser"
-        />
-
+        android:onClick="ReturnRegisterUser"/>
 
     <ImageView
         android:id="@+id/imagen"
@@ -49,7 +47,7 @@
 
 
         <TextView
-            android:id="@+id/TVnombre_apellido"
+            android:id="@+id/TVnombre_apellido_cliente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
@@ -60,7 +58,7 @@
             android:layout_marginStart="25dp"/>
 
         <EditText
-            android:id="@+id/ETnombre"
+            android:id="@+id/ETnombre_cliente"
             android:layout_width="347dp"
             android:layout_height="50dp"
             android:layout_marginTop="5dp"
@@ -69,7 +67,7 @@
             />
 
         <TextView
-            android:id="@+id/TVrut"
+            android:id="@+id/TVrut_cliente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -83,7 +81,7 @@
             />
 
         <EditText
-            android:id="@+id/rut"
+            android:id="@+id/rut_cliente"
             android:layout_width="347dp"
             android:layout_height="50dp"
             android:layout_marginTop="5dp"
@@ -92,30 +90,7 @@
             />
 
         <TextView
-            android:id="@+id/TVcorreo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="-0.5dp"
-            android:layout_gravity="top"
-            android:gravity="center_horizontal|center_vertical"
-            android:text="@string/correo_electronico"
-            android:textColor="#FF000000"
-            android:textSize="20sp"
-            android:layout_marginStart="30dp"/>
-
-        <EditText
-            android:id="@+id/correo"
-            android:layout_width="347dp"
-            android:layout_height="50dp"
-            android:layout_marginTop="5dp"
-            android:inputType="textEmailAddress"
-            android:layout_gravity="center"
-            android:background="@drawable/image_rectangle1"
-            />
-
-        <TextView
-            android:id="@+id/TVtelefono"
+            android:id="@+id/Tvtelefono_cliente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -125,11 +100,34 @@
             android:text="@string/telefono"
             android:textColor="#FF000000"
             android:textSize="20sp"
+            android:layout_marginStart="30dp"/>
+
+        <EditText
+            android:id="@+id/correo_cliente"
+            android:layout_width="347dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center"
+            android:background="@drawable/image_rectangle1"
+            />
+
+        <TextView
+            android:id="@+id/TVcontraseña_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="-0.5dp"
+            android:layout_gravity="top"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/contrasena"
+            android:textColor="#FF000000"
+            android:textSize="20sp"
             android:layout_marginStart="30dp"
             />
 
         <EditText
-            android:id="@+id/telefono"
+            android:id="@+id/contraseña_cliente"
             android:layout_width="347dp"
             android:layout_height="50dp"
             android:layout_marginTop="5dp"
@@ -138,21 +136,18 @@
             android:background="@drawable/image_rectangle1"
             />
 
-
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnsiguiente"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:text="@string/btnsiguiente"
-        android:textSize="20sp"
+        android:id="@+id/registro_cliente"
+        android:layout_width="275dp"
+        android:layout_height="41dp"
         android:layout_below="@id/editTextContainer"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="16dp"
-        android:drawableEnd="@drawable/ic_flechasgt"
-        android:onClick="OpenRegisterUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="@string/registrarse"
+        android:onClick="OpenMenuInicio"
+
         />
 
 </RelativeLayout>
