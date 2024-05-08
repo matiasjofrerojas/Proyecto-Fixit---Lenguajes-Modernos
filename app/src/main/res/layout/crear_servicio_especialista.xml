@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_shape">
+
+    <TextView
+        android:id="@+id/TVCrearServicio"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/navbar"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/crear_servicio_matias"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imgbtnVolver"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="33dp"
+        android:layout_gravity="top"
+        android:background="@drawable/ic_flechavolver"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/TVNombreServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/nombre_del_servicio_titulo_matias"
+        android:textColor="#FF000000"
+        android:textSize="20dp"
+        android:layout_below="@id/TVCrearServicio"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/ETNombreServicio"
+        android:layout_width="347dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_2_matias"
+        android:inputType="text"
+        android:hint="@string/nombre_del_servicio_matias"
+        android:layout_below="@id/TVNombreServicio"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/TVDescripcionServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/descripcio_n_del_servicio_matias"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:layout_below="@id/ETNombreServicio"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/ETDescripcionServicio"
+        android:layout_width="347dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_4_matias"
+        android:inputType="text"
+        android:hint="@string/descripci_n_del_servicio_matias"
+        android:layout_below="@id/TVDescripcionServicio"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/TVPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/precio_matias"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:layout_below="@id/ETDescripcionServicio"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/ETPrecio"
+        android:layout_width="347dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="top|left"
+        android:background="@drawable/drawable_shape_3_matias"
+        android:inputType="text"
+        android:hint="$"
+        android:layout_below="@id/TVPrecio"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/TVCargarImagenes"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-0.5dp"
+        android:layout_gravity="top|left"
+        android:gravity="center_horizontal|center_vertical"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/cargar_imagenes_del_servicio_matias"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:layout_below="@id/ETPrecio"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnCargarImagenes"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TVCargarImagenes"
+        android:layout_alignStart="@+id/TVCargarImagenes"
+        android:layout_marginTop="20dp"
+        android:text="@string/cargar" />
+
+    <Button
+        android:id="@+id/btnPublicar"
+        android:layout_width="186dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="664dp"
+        android:layout_gravity="top|left"
+        android:text="@string/publicar_matias"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:ignore="RtlHardcoded" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Navbar"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/nav_inicio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/inicio"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nav_servicios"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/servicios_gonzalo"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/menu"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nav_ayuda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/ayuda"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

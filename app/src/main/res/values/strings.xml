@@ -46,4 +46,14 @@
     <string name="Texto_foto_de_perfil">Foto de Perfil</string>
     <string name="dejar_comentario_gonzalo">Dejar comentario</string>
     <string name="servicios_gonzalo">Servicios</string>
+    <string name="crear_servicio_matias">Crear Servicio</string>
+    <string name="nombre_del_servicio_titulo_matias">Nombre del Servicio</string>
+    <string name="nombre_del_servicio_matias">Nombre del servicio</string>
+    <string name="descripcio_n_del_servicio_matias">Descripción del Servicio</string>
+    <string name="descripci_n_del_servicio_matias">Descripción del servicio</string>
+    <string name="precio_matias">Precio</string>
+    <string name="cargar_imagenes_del_servicio_matias">Cargar Imagenes del Servicio</string>
+    <string name="publicar_matias">Publicar</string>
+
+
 </resources>
