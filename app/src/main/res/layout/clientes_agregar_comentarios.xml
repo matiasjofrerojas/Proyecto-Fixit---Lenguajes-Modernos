@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/container_clientes_agregar_comentarios"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/container_clientes_esteban">
+
+  <ImageView
+      android:id="@+id/image_wave_curve_lines"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:src="@drawable/image_wave_curve_lines_esteban" />
+
+  <TextView
+      android:id="@+id/image_rectangle"
+      android:layout_width="match_parent"
+      android:layout_height="103.94dp"
+      android:background="@drawable/image_rectangle_esteban"
+      android:scaleType="centerCrop" />
+
+  <TextView
+      android:id="@+id/text_comentarios"
+      android:layout_width="253dp"
+      android:layout_height="44dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="34dp"
+      android:layout_marginEnd="19.5dp"
+      android:layout_marginBottom="772.5dp"
+      android:gravity="center"
+      android:includeFontPadding="false"
+      android:maxLines="1"
+      android:singleLine="true"
+      android:text="@string/comentarios"
+      android:textColor="#FFFFFFFF"
+      android:textSize="36sp" />
+
+  <TextView
+    android:id="@+id/ic_arrow_prev_small"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_marginStart="11dp"
+    android:layout_marginTop="44dp"
+    android:scaleType="centerInside"
+    android:background="@drawable/ic_arrow_prev_small_esteban" />
+
+  <TextView
+    android:id="@+id/text_calificacion"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginStart="35dp"
+    android:layout_marginTop="166.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="@string/calificacion"
+    android:textColor="#FF000000"
+    android:textSize="20sp" />
+
+  <ImageView
+    android:id="@+id/container_star"
+    android:layout_width="45dp"
+    android:layout_height="43dp"
+    android:layout_marginStart="35dp"
+    android:layout_marginTop="235dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_star1" />
+
+  <ImageView
+    android:id="@+id/container_star1"
+    android:layout_width="45dp"
+    android:layout_height="43dp"
+    android:layout_marginStart="104dp"
+    android:layout_marginTop="235dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_star1" />
+
+  <ImageView
+    android:id="@+id/container_star2"
+    android:layout_width="45dp"
+    android:layout_height="43dp"
+    android:layout_marginStart="173dp"
+    android:layout_marginTop="235dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_star1" />
+
+  <ImageView
+    android:id="@+id/container_star3"
+    android:layout_width="45dp"
+    android:layout_height="43dp"
+    android:layout_marginStart="242dp"
+    android:layout_marginTop="235dp"
+
+    android:scaleType="centerInside"
+    android:src="@drawable/container_star1" />
+
+  <ImageView
+    android:id="@+id/container_star4"
+    android:layout_width="45dp"
+    android:layout_height="43dp"
+    android:layout_marginStart="311dp"
+    android:layout_marginTop="235dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/container_star1" />
+
+  <TextView
+    android:id="@+id/text_comentario"
+    android:layout_width="wrap_content"
+    android:layout_height="25dp"
+    android:layout_marginStart="35dp"
+    android:layout_marginTop="352.5dp"
+    android:layout_marginBottom="-0.5dp"
+    android:gravity="center_horizontal|center_vertical"
+    android:includeFontPadding="false"
+    android:maxLines="1"
+    android:singleLine="true"
+    android:text="@string/comentario"
+    android:textColor="#FF000000"
+    android:textSize="20sp" />
+
+  <EditText
+    android:id="@+id/image_rectangle2"
+    android:layout_width="347dp"
+    android:layout_height="147dp"
+    android:layout_marginStart="23dp"
+    android:layout_marginTop="411dp"
+    android:background="@color/white"
+    android:scaleType="centerInside" />
+
+  <Button
+      android:id="@+id/image_image"
+      android:layout_width="323dp"
+      android:layout_height="54dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:text="@string/publicar_boton"
+      android:layout_marginStart="50dp"
+      android:layout_marginTop="625dp"
+      android:textSize="22sp"
+      android:layout_marginEnd="50dp"
+      android:background="@drawable/image_image_esteban"
+      android:contentDescription="@string/publicar" />
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:background="#2F2F2F"
+      android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nav_inicio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/inicio"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/nav_servicios"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/servicios_navbar_esteban"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/Etiqueta_Menu"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/nav_ayuda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/ayuda"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+  </LinearLayout>
+
+</RelativeLayout>
