@@ -50,6 +50,7 @@
         android:textColor="#FF000000"
         android:textSize="20sp" />
 
+
     <FrameLayout
         android:id="@+id/container_group1"
         android:layout_marginStart="20dp"
@@ -443,33 +444,10 @@
     </FrameLayout>
 
 
+
     <!-- Navbar -->
-    <TextView
-        android:id="@+id/text_cambio_página_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/container_group5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="150dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="150dp"
-        android:text="@string/Cambio_página_1"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_below="@+id/text_cambio_página_1"
-        android:layout_marginTop="3dp"
-        android:layout_marginStart="150dp"
-        android:layout_marginEnd="150dp"
-        android:text="Siguiente" />
-
     <LinearLayout
+        android:id="@+id/navbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
