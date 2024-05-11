@@ -132,8 +132,7 @@
                 android:textStyle="bold"
                 android:gravity="center"
                 android:clickable="true"
-                android:focusable="true"
-                android:onClick="redirigirServicio"/>
+                android:focusable="true"/>
 
             <TextView
                 android:id="@+id/menu"
@@ -161,7 +160,6 @@
                 android:focusable="true"
                 android:layout_marginEnd="10dp"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:onClick="redirigir"/>
+                android:textStyle="bold"/>
         </LinearLayout>
 </RelativeLayout>
