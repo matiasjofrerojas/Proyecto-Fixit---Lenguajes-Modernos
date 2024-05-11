@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/drawable_shape">
+    android:background="@drawable/drawable_shape"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/header"
@@ -19,17 +22,17 @@
         android:padding="25dp"/>
 
     <Button
-        android:layout_width="100dp"
+        android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="250dp"
+        android:layout_marginStart="230dp"
         android:layout_marginEnd="25dp"
         android:layout_marginTop="100dp"
         android:text="Perfil"
         android:textColor="@color/white"
         android:textSize="20sp"
-        android:onClick="openPerfil"/>
+        android:onClick="openProfile"/>
 
     <ImageView
         android:id="@+id/container_image"
@@ -44,7 +47,7 @@
         android:layout_height="55dp"
         android:layout_marginStart="190dp"
         android:layout_marginEnd="14dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="210dp"
         android:gravity="center_horizontal"
         android:includeFontPadding="false"
         android:text="Tu trabajo es recompensado"
@@ -55,9 +58,9 @@
         android:id="@+id/text_ayuda_necesitas"
         android:layout_width="247dp"
         android:layout_height="55dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginTop="520dp"
         android:gravity="end"
         android:text="Te ayudamos en lo que necesites 24/7"
         android:textColor="#FF33353C"
@@ -69,9 +72,8 @@
         android:layout_height="50dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="350dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
         android:text="Si ofreces un servicio de calidad, nosotros te pondremos primero."
         android:textAlignment="center"
         android:textColor="#FF282828"
@@ -81,10 +83,8 @@
         android:id="@+id/container_image1"
         android:layout_width="179dp"
         android:layout_height="231dp"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="480dp"
         android:src="@drawable/container_image1" />
-
-    <!-- NavBar -->
 
     <TextView
         android:id="@+id/text_garantia_especialistas"
@@ -94,74 +94,25 @@
         android:layout_alignParentEnd="true"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="600dp"
         android:layout_marginEnd="30dp"
         android:gravity="end"
         android:text="Garantizamos que tu necesidad sea cubierta con nuestros especialistas."
         android:textColor="#FF282828"
         android:textSize="16sp" />
 
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="@color/Navbar"
-            android:padding="24dp">
+    <!-- NavBar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/header"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/ripple_fondo"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_menu"
+        android:layout_gravity="bottom"
+        />
 
-            <TextView
-                android:id="@+id/nav_inicio"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/inicio"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:clickable="true"
-                android:focusable="true"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
 
-            <TextView
-                android:id="@+id/nav_servicios"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/servicios_nav"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:clickable="true"
-                android:focusable="true"
-                android:onClick="redirigirServicio"/>
-
-            <TextView
-                android:id="@+id/menu"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/menu"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginStart="10dp"
-                android:gravity="center"
-                android:clickable="true"
-                android:focusable="true"/>
-
-            <TextView
-                android:id="@+id/nav_ayuda"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/ayuda"
-                android:textColor="#FFFFFF"
-                android:gravity="center"
-                android:clickable="true"
-                android:focusable="true"
-                android:layout_marginEnd="10dp"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:onClick="redirigir"/>
-        </LinearLayout>
-</RelativeLayout>

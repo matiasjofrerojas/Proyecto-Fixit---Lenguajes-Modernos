@@ -12,7 +12,7 @@ class Home : AppCompatActivity() {
         setContentView(R.layout.home)
     }
 
-    fun openPerfil(view: View) {
+    fun openProfile (view: View){
         val intent = Intent(this, Profile::class.java)
         startActivity(intent)
     }
