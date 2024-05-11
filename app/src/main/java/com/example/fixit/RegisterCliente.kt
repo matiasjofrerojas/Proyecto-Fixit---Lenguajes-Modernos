@@ -12,13 +12,8 @@ class RegisterCliente : AppCompatActivity() {
         setContentView(R.layout.registro_cliente)
     }
 
-    fun returnRegisterUser(view: View) {
+    fun ReturnRegisterUser(view: View) {
         val intent = Intent(this, SelectUser::class.java)
-        startActivity(intent)
-    }
-
-    fun openHomeClient(view: View) {
-        val intent = Intent(this, Home::class.java)
         startActivity(intent)
     }
 
